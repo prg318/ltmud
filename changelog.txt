@@ -1,0 +1,23 @@
+4-09-09 - More code cleanup; better default window size
+4-09-09 - Echo support
+4-09-09 - Preliminary echo support
+4-09-09 - Rearranged some code to make it more object oriented and easier
+		to manage.  Also did some work on the UI to make it look cleaner.
+4-09-09 - Added ANSI constrols and background and foreground color controls.
+		Also added some error checking on the connection part of the telnet
+		client, so if the network is not available KAMC will give a shitty
+		error report.
+3-31-09 - Made all source indents consistent
+3-31-09 - Dialogs now centered
+3-31-09 - Initial font selection support.
+3-30-09 - Automatically gives mainEntry focus after connect for convienience.
+3-30-09 - Set default MUD in connectWindow to DSL.
+3-30-09 - Added Help menu and About dialog.  Also cleaned up some other code.
+3-30-09 - Rearranged some classes to make more sense and also added
+		the preferences window mockup.  This is the next target to get working.	
+3-30-09 - The kamc3 script can be run from any directory; instead of just
+		the directory where the glade file is located.
+3-29-09 - The new rewrite is now basically functional.  It uses gtk
+		function calls for the main window, but the rest of the UI dialogs
+		and windows are designed with glade for simplicity.
+Rewrite 3
