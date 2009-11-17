@@ -9,6 +9,8 @@
 
 # March 30, 2009
 
+# LICENSED UNDER THE GPLv3
+
 # TODO:
 # Options widget to store options
 # Advanced features
