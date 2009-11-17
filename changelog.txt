@@ -1,3 +1,4 @@
+11-17-09 - Fixed UI to work with latest glade; works now in Ubuntu 9.10
 4-09-09 - More code cleanup; better default window size
 4-09-09 - Echo support
 4-09-09 - Preliminary echo support
