@@ -16,12 +16,12 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkTable" id="table1">
+          <object class="GtkTable" id="table9">
             <property name="visible">True</property>
             <property name="n_rows">2</property>
             <property name="n_columns">2</property>
             <child>
-              <object class="GtkLabel" id="label1">
+              <object class="GtkLabel" id="label9">
                 <property name="visible">True</property>
                 <property name="label" translatable="yes">Host:</property>
               </object>
@@ -73,7 +73,7 @@
             <property name="layout_style">end</property>
             <child>
               <object class="GtkButton" id="button2">
-                <property name="label" translatable="yes">gtk-close</property>
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -88,7 +88,7 @@
             </child>
             <child>
               <object class="GtkButton" id="connectButton">
-                <property name="label" translatable="yes">gtk-connect</property>
+                <property name="label">gtk-connect</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -138,7 +138,6 @@
                 <child>
                   <object class="GtkLabel" id="label1">
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Font:</property>
                   </object>
                   <packing>
                     <property name="position">0</property>
@@ -418,7 +417,7 @@
                   </object>
                 </child>
                 <child type="label">
-                  <object class="GtkLabel" id="label2">
+                  <object class="GtkLabel" id="label29">
                     <property name="visible">True</property>
                     <property name="label" translatable="yes">&lt;b&gt;ANSI Colors&lt;/b&gt;</property>
                     <property name="use_markup">True</property>
@@ -497,7 +496,7 @@
             </child>
             <child>
               <object class="GtkButton" id="button1">
-                <property name="label" translatable="yes">gtk-close</property>
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -540,7 +539,7 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkLabel" id="label1">
+          <object class="GtkLabel" id="labelw">
             <property name="visible">True</property>
             <property name="label" translatable="yes">Alpha III</property>
           </object>
@@ -576,14 +575,14 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkHBox" id="hbox1">
+          <object class="GtkHBox" id="hbox">
             <property name="visible">True</property>
             <child>
-              <object class="GtkVBox" id="vbox1">
+              <object class="GtkVBox" id="vbox">
                 <property name="visible">True</property>
                 <property name="orientation">vertical</property>
                 <child>
-                  <object class="GtkLabel" id="label1">
+                  <object class="GtkLabel" id="label11">
                     <property name="visible">True</property>
                     <property name="label" translatable="yes">Alias</property>
                   </object>
@@ -702,7 +701,7 @@
                 <property name="visible">True</property>
                 <property name="orientation">vertical</property>
                 <child>
-                  <object class="GtkLabel" id="label2">
+                  <object class="GtkLabel" id="label22">
                     <property name="visible">True</property>
                     <property name="label" translatable="yes">Command</property>
                   </object>
@@ -828,8 +827,8 @@
               <placeholder/>
             </child>
             <child>
-              <object class="GtkButton" id="button1">
-                <property name="label" translatable="yes">gtk-close</property>
+              <object class="GtkButton" id="button">
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -851,7 +850,7 @@
       </object>
     </child>
     <action-widgets>
-      <action-widget response="0">button1</action-widget>
+      <action-widget response="0">button</action-widget>
     </action-widgets>
   </object>
 </interface>
