@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # LTMUD - LT's MUD Client
 # Lukas Sabota
@@ -109,7 +109,7 @@ class KAMC:
         win = gtk.Window()
 
         win.set_title("LTmud Client")
-        win.set_default_size(650, 1000)
+        win.set_default_size(650, 500)
         win.connect("delete_event", self.quit)
     
         vbox = gtk.VBox()
