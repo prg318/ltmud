@@ -5,7 +5,6 @@
 # ltsmooth42 _at_ gmail.com
 
 # This is the third rewrite and it's going to be the best.  
-# I'm high!
 
 # March 30, 2009
 
