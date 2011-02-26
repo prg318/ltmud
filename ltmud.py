@@ -88,7 +88,7 @@ class NetClient:
             msg = msg + '\n'
             self.tn.write(msg)
 
-class KAMC:
+class LTMUD:
     def __init__(self):
         ui = gtk.Builder()
         try:
@@ -333,6 +333,6 @@ class GladeCallbacks:
     
 
 if __name__ == "__main__":
-    app = KAMC()
+    app = LTMUD()
     app.run()
 
