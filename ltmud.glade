@@ -39,7 +39,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="invisible_char">&#x25CF;</property>
-                <property name="text" translatable="yes">dragons-exodus.net</property>
+				<property name="text" translatable="yes">aardmud.org</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -51,7 +51,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="invisible_char">&#x25CF;</property>
-                <property name="text" translatable="yes">1234</property>
+                <property name="text" translatable="yes">4000</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
